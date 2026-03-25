@@ -13,11 +13,15 @@ step12- "git push -u origin main"
 
 
 To update-
+       git status 
 step1- "git add readme.md"
 step2- "git commit -m "create read"  "   
 step3- git add .
 step4- git push
 step5- git log 
 commit a243627c06dda3e362450323672e0c42dc8ccf3c - it is called hash code helps in restoring files when once deleted
-ghvuvhjsdsf
+
+if we get fatal error-  git push --set-upstream origin main
+
+
  
