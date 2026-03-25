@@ -12,6 +12,6 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
 
-              -name: Runa a simple command
+              - name: Runa a simple command
               run: echo "This is my pipeline run"
            
