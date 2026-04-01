@@ -21,7 +21,24 @@ step4- git push
 step5- git log 
 commit a243627c06dda3e362450323672e0c42dc8ccf3c - it is called hash code helps in restoring files when once deleted
 
+to create other branch- " git checkout -b feature-branch"
+
 if we get fatal error-  git push --set-upstream origin main
+
+Senario:
+if we change the repo name - git remote set-url 
+in this we will set origin
+
+git remote set-url origin git@github.com:algolikitha/devops.git
+
+completely reset the connections- git remote add origin git@github.com:algolikith/devops.git
+after this we have to git push origin
+
+if we want to completely remove everything
+Remove-Item -Recurse -force .git
+
+merge conflict:
+
 
 
 <h1>hello from main branch
