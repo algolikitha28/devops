@@ -39,8 +39,6 @@ Remove-Item -Recurse -force .git
 
 merge conflict:
 
-
-
-<h1>hello from main branch
+to delete the branch- git branch -d feature-branch
 
  
